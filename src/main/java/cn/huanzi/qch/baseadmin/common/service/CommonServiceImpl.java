@@ -38,7 +38,7 @@ public class CommonServiceImpl<V, E, T> implements CommonService<V, E, T> {
 
     private Class<E> entityClass;//实体类
 
-    @Autowired
+    @Autowired(required = false)
     private CommonRepository<E, T> commonRepository;//注入实体类仓库
 
     public CommonServiceImpl() {
