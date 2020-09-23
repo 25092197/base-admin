@@ -22,7 +22,7 @@ import java.util.List;
  */
 public class CommonController<V, E, T> {
 
-    @Autowired(required = false)
+    @Autowired
     private CommonService<V, E, T> commonService;
 
     /*
